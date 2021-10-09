@@ -15,6 +15,12 @@ const Person = (props) => {
                 {name}: I am {props.age} years old.
             </p>
             <h3>{msg}</h3>
+            <h4>Hobbies:</h4>
+            <ul>
+                {props.hobbies.map((hobby) => (
+                    <li>{hobby}</li>
+                ))}
+            </ul>
             <hr />
         </div>
     );
