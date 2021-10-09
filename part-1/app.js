@@ -3,6 +3,8 @@ const App = () => {
         <div>
             <FirstComponent />
             <NamedComponent name="fluff" />
+            <NamedComponent name="bleep" />
+            <NamedComponent name="bloop" />
         </div>
     );
 };
